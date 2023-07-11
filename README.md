@@ -1,6 +1,6 @@
 # Pact JS Repro template
 
-This example can be used as a starting point for a minimal reproducible example (https://stackoverflow.com/help/minimal-reproducible-example) for Pact JS related issues.
+This example can be used as a starting point for a [minimal reproducible example](https://stackoverflow.com/help/minimal-reproducible-example) for Pact JS related issues.
 
 Please update the example as desired to show the feature that is not working. 
 
