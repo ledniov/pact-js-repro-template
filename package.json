@@ -7,14 +7,15 @@
   "scripts": {
     "clean": "rimraf pacts",
     "pretest": "npm run clean",
-    "test": "npm run test:consumer && npm run test:provider",
+    "test": "npm run test:consumer && npm run test:provider && npm run test:reify",
     "test:consumer": "jest consumer.spec.ts",
-    "test:provider": "jest provider.spec.ts"
+    "test:provider": "jest provider.spec.ts",
+    "test:reify": "jest reify.spec.ts"
   },
   "author": "matt.fellows@onegeek.com.au",
   "license": "MIT",
   "devDependencies": {
-    "@pact-foundation/pact": "^12.0.0",
+    "@pact-foundation/pact": "^13.1.0",
     "@types/chai": "^4.3.3",
     "@types/chai-as-promised": "7.1.5",
     "@types/jest": "^29.5.3",
